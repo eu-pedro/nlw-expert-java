@@ -19,8 +19,7 @@ public class VerifyIfHasCertificationUseCase {
     
     if(!result.isEmpty()){
       return true;
-    } else {
-      return false;
-    }
+    } 
+    return false;
   }
 }
